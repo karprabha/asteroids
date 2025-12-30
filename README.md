@@ -34,19 +34,19 @@ This is a faithful recreation of the classic Asteroids arcade game where you pil
 2. **Create a virtual environment** (optional but recommended):
 
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   uv venv
+   source .venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. **Install dependencies**:
 
    ```bash
-   pip install -r requirements.txt
+   uv pip install -r requirements.txt
    ```
 
 4. **Run the game**:
    ```bash
-   python main.py
+   uv run main.py
    ```
 
 ## 🎯 How to Play
